@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Unity.LEGO.Minifig {
   public class LegoGameStart : MonoBehaviour {
-      void Start() {
+      void Awake() {
         Debug.Log("Hello: " + gameObject.name);
       }
     }
